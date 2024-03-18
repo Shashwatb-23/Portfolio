@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><strong>Shashwat Bhardwaj</strong></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Shashwat Bhardwaj</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact"onclick="toggleMenu()">Contact</a></li>  
+            </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="Images/-6248761822215779354_121-modified.png" alt="Shashwat Bhardwaj">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p" style="font-size: 1.2rem;">Hello I'm</p>
+            <h1 class="title">Shashwat Bhardwaj</h1>
+            <p class="selection__text__p2" style="font-size: 1.2rem;"><strong>Frontend Developer</strong></p>
+            <div class="btn-container"> 
+                <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1lMbzz_ptM6n0r5kOtzwCEJLMx41MRmA6/view?usp=sharing')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact' ">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="Images/linkedin.png" alt="LinkedIN" class="icon" onclick="location.href='https://www.linkedin.com/in/shashwat-bhardwaj-73591b20b/'">
+                <br>
+                <img src="Images/github.png" alt="gitHub" class="icon" onclick="location.href='https://github.com/Shashwatb-23'">
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="about">
+        <p class="section__text-p1"><strong>Get To Know More</strong></p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic_container_about">
+                <img src="Images/IMG_20240218_144117296.jpg" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="Images/Badge.jpg" alt="Experience icon" class="icon_badge" style="float: left;">
+                    </div>
+                    <h3>Experience</h3>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa quibusdam vel deleniti voluptates quae.</li>
+                    </ul>
+                </div>
+                <div class="details-container">
+                    <img src="Images/Education.jpg" alt="Education icon" class="icon__badge" style="float: left;">
+                    </div>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>B.Tech Mechanical Engineering - 70%</li>
+                        <!-- <li>Higher Secondary Education - 53%</li>
+                        <li>Senior Secondary Education - 55%</li> -->
+                    </ul>
+                    <p class="text-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias porro beatae quod eius aspernatur quaerat ipsa, consequuntur ipsum esse mollitia quam, earum necessitatibus delectus veritatis consectetur nulla harum hic deserunt. Perspiciatis illo harum similique! Debitis corrupti dicta praesentium vero doloribus nihil totam fugit est. Ab, corporis culpa ullam quibusdam vero assumenda doloribus illum deserunt incidunt voluptatem excepturi tempora cumque fuga. Culpa commodi temporibus itaque iure harum quos possimus, tempore molestias accusamus reprehenderit, labore esse voluptas at omnis nesciunt. Illo, aperiam voluptate? Ea commodi numquam quisquam repellat sunt accusantium voluptatum earum sit, itaque obcaecati perferendis nesciunt doloremque facere delectus omnis laborum, labore nulla recusandae neque quia dolores porro iste. Rerum quam unde possimus consectetur alias perspiciatis iusto vitae quas deleniti, ab dicta! Labore porro laborum quo quae, blanditiis ad eaque aliquam consectetur eius provident voluptatibus dolore corrupti, repellendus nulla molestiae iste delectus? Maiores temporibus ducimus molestiae quaerat neque commodi voluptatum.</p>
+                </div>
+            </div>
+        </div>
+        <img src="Images/downward arrow.png" alt="downward arrow icon" class="icon-arrow" onclick="location.href='./#experience'">
+    </section>
+    <br>
+    <section id="experience">
+        <p class="section__text__p1"><strong>Explore My</strong></p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-conatiners-1">
+                    <h2 class="experience-sub-title">Frontend Develoment</h2>
+                    <div class="article-container-1">
+                        <article>
+                            <img src="Images/verified.png" alt="skill set" class="verified_icon">
+                            <div>
+                                <h2>HTML</h2>
+                                <p><strong>Experienced</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Images/verified.png" alt="skill set" class="verified_icon">
+                            <div>
+                                <h2>CSS</h2>
+                                <p><strong>Experience</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Images/verified.png" alt="skill set" class="verified_icon">
+                            <div>
+                                <h2>JavaScript</h2>
+                                <p><strong>Basic</strong></p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!-- <br> -->
+                <div class="details-conatiners-2">
+                    <h2 class="experience-sub-title-2">Backend Develoment</h2>
+                    <!-- <br> -->
+                    <div class="article-container-2">
+                        <article>
+                            <img src="Images/verified.png" alt="skill set" class="verified_icon">
+                            <div>
+                                <h2>Python</h2>
+                                <p><strong>Intermediate</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Images/verified.png" alt="skill set" class="verified_icon">
+                            <div>
+                                <h2>Node Js</h2>
+                                <p><strong>Intermediate</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="Images/verified.png" alt="skill set" class="verified_icon">
+                            <div>
+                                <h2>Git</h2>
+                                <p><strong>Intermediate</strong></p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="Images/downward arrow.png" alt="downward arrow icon" class="icon-arrow-exp" onclick="location.href='./#projects'">
+    </section>
+    <br>
+    <section id="projects">
+        <p class="section__text__project"><strong>Browse My Recent</strong></p>
+        <h1 class="title">Projects</h1>
+        <br>
+        <div class="experience-details-container-project">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="Images/6535692.jpg" alt="Project-1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title" style="text-align: center;">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container-project">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="Images/6535692.jpg" alt="Project-1" class="project-2-img">
+                </div>
+                <h2 class="experience-sub-title project-title" style="text-align: center;">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container-project">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="Images/6535692.jpg" alt="Project-1" class="project-3-img">
+                </div>
+                <h2 class="experience-sub-title project-title" style="text-align: center;">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+        </div>
+        <img src="Images/downward arrow.png" alt="downward arrow icon" class="icon-arrow-project" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1"><strong>Get in Touch</strong></p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="Images/mail.png" alt="Email Icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:shashwatbhardwaj3@gmail.com">shashwatbhardwaj3@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="Images/linkedin.png" alt="LinkedIN Icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/shashwat-bhardwaj-73591b20b/">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-containers">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright and &#169; 2024 Shashwat Bhardwaj. All Rights Reserved</p>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
