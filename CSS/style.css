@@ -522,13 +522,20 @@ article{
 .project-1,
 .project-2,
 .project-3{
-    border: 2px solid rgb(221, 213, 213);
+    filter: grayscale(100%);
     aspect-ratio: 3/2;
     margin: 1rem;
     border-radius: 2rem;
     width: 90%;
     height: 90%;
 }
+
+.project-1:hover,
+.project-2:hover,
+.project-3:hover {
+    filter: grayscale(0%);
+}
+
 
 .project-title{
     margin: 0.5rem;
