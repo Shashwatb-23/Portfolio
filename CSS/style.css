@@ -522,6 +522,7 @@ article{
 .project-1,
 .project-2,
 .project-3{
+    border: 2px solid rgb(221, 213, 213);
     aspect-ratio: 3/2;
     margin: 1rem;
     border-radius: 2rem;
