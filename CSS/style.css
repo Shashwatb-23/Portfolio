@@ -519,13 +519,13 @@ article{
     background: rgb(250, 250, 250);
 }
 
-.project-img,
-.project-2-img,
-.project-3-img{
-     margin: 1rem;
-     border-radius: 2rem;
-     width: 90%;
-     height: 90%;
+.project-1,
+.project-2,
+.project-3{
+    margin: 1rem;
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
 }
 
 .project-title{
