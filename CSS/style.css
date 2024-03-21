@@ -294,7 +294,7 @@ section{
 }
 
 .section__text-p1{
-    margin-left: 32rem;
+    text-align: center;
 }
 
 .section__pic_container_about{
@@ -606,5 +606,5 @@ footer p{
 
 li{
     font-weight: 500;
-    
+
 }

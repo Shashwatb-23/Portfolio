@@ -95,4 +95,7 @@
     .section__text-p1{
         text-align: center;
     }
+    .about-details-container{
+        margin: 2rem;
+    }
 }
