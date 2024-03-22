@@ -224,10 +224,10 @@ section{
 }
 
 .section__pic-container img{
-    width: 24rem;
+    /* width: 24rem; */
     border-radius: 12rem;
-    margin-top: 2rem;
-    margin-left: -5rem;
+    /* margin-top: 2rem;
+    margin-left: -5rem; */
     box-shadow: 0 0 15px  rgb(61, 62, 62);
 }
 
@@ -305,10 +305,11 @@ section{
 }
 
 .section__pic_container_about img{
-    width: 23rem;
-    border-radius: 1rem;
+    /* width: 23rem; */
+    border-radius: 12rem;
     margin-top: 2rem;
-    margin-left: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0.25rem;
     box-shadow: 0 0 15px rgb(61, 62, 62);
 }
 
@@ -508,7 +509,7 @@ article{
 #projects{
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    /* margin: 0 10rem; */
     box-sizing: border-box;
     min-height: fit-content;
     display: inline-block;
