@@ -37,6 +37,10 @@
     }
     .about-containers{
         margin-top: 0;
+        margin-left: 3rem;
+    }
+    #projects{
+        display: table-cell;
     }
     
 }
@@ -104,7 +108,43 @@
     .about-details-container{
         margin-top: 2rem;
     }
-    #projects{
+    /* #projects{
         margin: 0 10rem;
+    } */
+    .experience-details-container-project {
+        margin: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    .menu-links.open {
+        max-height: 300px;
+        background: white;
+        border-radius: 7rem;
+    }
+    .section__text-p1{
+        margin-top: 8rem;
+    }
+    #projects{
+        margin: 0px;
+    }
+    .contact-info-upper-container{
+        margin-left: -9px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body{
+        width: 100vw;
+    }
+    .contact-info-upper-container{
+        margin-left:-9px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .experience-details-container-project {
+        margin: 5rem;
     }
 }
