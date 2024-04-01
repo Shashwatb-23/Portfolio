@@ -147,4 +147,10 @@
     .experience-details-container-project {
         margin: 5rem;
     }
+    .menu-links.open {
+        max-height: 300px;
+        background: white;
+        border-radius: 7rem;
+    }
 }
+
