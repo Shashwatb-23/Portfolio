@@ -488,6 +488,7 @@ article{
 
 
 .experience-details-container-project{
+    aspect-ratio: 3/2;
     display: inline-block;
     margin: 2rem;
     width: 19rem;
