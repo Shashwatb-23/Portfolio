@@ -475,7 +475,6 @@ article{
     width: 33rem;
     border: 2px solid gray;
     border-radius: 1rem;
-   
 }
 
 .details-conatiners-1:hover,
@@ -488,7 +487,7 @@ article{
 
 
 .experience-details-container-project{
-    aspect-ratio: 3/2;
+    /* aspect-ratio: 3/2; */
     display: inline-block;
     margin: 2rem;
     width: 19rem;
