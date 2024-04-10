@@ -307,10 +307,11 @@ section{
 }
 
 .section__pic_container_about img{
-    width: 23rem;
+    height: 20rem;
+    width: 20rem;
     border-radius: 12rem;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     margin-left: 0.25rem;
     box-shadow: 0 0 15px rgb(61, 62, 62);
 }
@@ -448,7 +449,7 @@ section{
 .experience-details-container{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
 
 .article-container-1, .article-container-2 {

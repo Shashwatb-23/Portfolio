@@ -50,13 +50,25 @@
     #projects{
         display: table-cell;
     }
-    section{
-        margin: 0 3rem;
+    #contact, footer{
+        display: contents;
+        height: 40vh;
+    }
+    .section__pic_container_about img{
+        height: 13rem;
+        width: auto;
+        margin-left: 3.0rem;
+        justify-content: center;
+
+    }
+    .section__pic_container_about{
+        height: 296px;
     }
 }
 
 @media screen and (max-width: 600px) {
     #contact, footer{
+        display: contents;
         height: 40vh;
     }
     #profile{
@@ -115,9 +127,9 @@
     .section__text-p1{
         text-align: center;
     }
-    .about-details-container{
+    /* .about-details-container{
         margin-top: 2rem;
-    }
+    } */
     /* #projects{
         margin: 0 10rem;
     } */
@@ -154,9 +166,9 @@
 }
 
 @media screen and (max-width: 1024px){
-    .experience-details-container-project {
+    /* .experience-details-container-project {
         margin: 5rem;
-    }
+    } */
     .menu-links.open {
         max-height: 300px;
         background: white;
